@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Env / secrets
+.env
+*.env
+*secret*.yaml
+*secrets*.yaml
+kubeconfig
+config
+*.pem
+*.key
+
+# OS / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+
+# Kubernetes local temp
+tmp/

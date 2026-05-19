@@ -1,5 +1,3 @@
-# My-K8S
-Test-model
 # k8s-study-platform
 
 Kubernetes study project on AWS EC2.
