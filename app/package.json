@@ -1,0 +1,12 @@
+{
+  "name": "k8s-nodejs-mariadb-app",
+  "version": "1.0.0",
+  "description": "Node.js app for Kubernetes MariaDB test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0"
+  }
+}
