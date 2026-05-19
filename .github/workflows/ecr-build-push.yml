@@ -33,8 +33,10 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t $ECR_REPOSITORY:$IMAGE_TAG ./app
-
+          docker build \
+            -t $ECR_REPOSITORY:$IMAGE_TAG \
+            -f app/Dockerfile \
+            app  
       - name: Tag Docker image
         run: |
           AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
